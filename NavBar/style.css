@@ -1,0 +1,47 @@
+.NavBar{
+    display: flex;
+    gap: 50px;
+    background-color: #30332E;
+    height: 70px;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.NavBar li{
+    color: #62BBC1;
+    list-style-type: none;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.NavBar .nav-item:hover{
+    background-color: #010400;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+body{
+    background-color: #535052;
+}
+
+.option{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    background-color: #30332E;
+    width: 100px;
+    display: block;
+}
+.hide{
+    display: none;
+}
+.child{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
